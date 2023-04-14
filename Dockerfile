@@ -6,6 +6,6 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page287/ca
 RUN unzip cakezone.zip
 RUN cp -rvf cake-shop-website-template/* .
 
-EXPOSE 8:0
+EXPOSE 80
 
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
